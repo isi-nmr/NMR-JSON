@@ -13,7 +13,7 @@ import java.util.zip.ZipOutputStream;
 
 public class NmrJSON {
     String Version;
-    String FileName;
+    String Name;
     ContentType ContentType;
     Integer[] Dimensions;
     Integer StorageSize;
@@ -112,12 +112,12 @@ public class NmrJSON {
         this.ContentType = contentType;
     }
 
-    public String getFileName() {
-        return FileName;
+    public String getName() {
+        return Name;
     }
 
-    public void setFileName(String fileName) {
-        FileName = fileName;
+    public void setName(String name) {
+        Name = name;
     }
 
     public String getExperimentType() {

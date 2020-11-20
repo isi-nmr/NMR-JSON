@@ -52,7 +52,7 @@ public class Dimension extends LinkedHashMap {
         String DimensionInfo = null;
         String DimensionUnit = null;
         String Encoding = null;
-        int[] EncodingSteps = null;
+        Integer[] EncodingSteps = null;
 
         public Info() {
         }
@@ -137,11 +137,11 @@ public class Dimension extends LinkedHashMap {
             Encoding = encoding;
         }
 
-        public int[] getEncodingSteps() {
+        public Integer[] getEncodingSteps() {
             return EncodingSteps;
         }
 
-        public void setEncodingSteps(int[] encodingSteps) {
+        public void setEncodingSteps(Integer[] encodingSteps) {
             EncodingSteps = encodingSteps;
         }
     }

@@ -13,7 +13,7 @@ public class TestNew {
 
 
         // 2. store information
-        nmrJSON.setFileName("mrs data");
+        nmrJSON.setName("mrs data");
         // use built-in enum
         nmrJSON.setContentType(ContentType.SIGNAL);
         // now just accept string but it will get updated to enum
