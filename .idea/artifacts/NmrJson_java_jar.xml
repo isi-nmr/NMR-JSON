@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="NmrJson_java:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/NmrJson_java_jar</output-path>
+    <root id="archive" name="NmrJson_java.jar">
+      <element id="module-output" name="NmrJson_java" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.3/commons-lang3-3.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
