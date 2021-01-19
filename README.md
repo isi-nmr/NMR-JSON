@@ -381,6 +381,7 @@ Or for multi parameters, it would be like below:
         ]
       }
 
-This project was supported by:
+
 ```
+This project was supported by:
 - European Union's Horizon 2020 research and innovation program under the Marie Sklodowska-Curie grant agreement No 813120 (INSPiRE-MED)
